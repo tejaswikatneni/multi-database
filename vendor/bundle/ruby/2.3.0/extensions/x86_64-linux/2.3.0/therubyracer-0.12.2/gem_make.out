@@ -1,0 +1,47 @@
+current directory: /home/tejaswi/Sites/rails-api/vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8
+/usr/local/rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20160713-8684-1w6ocer.rb extconf.rb
+checking for main() in -lpthread... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /home/tejaswi/Sites/rails-api/vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0/therubyracer-0.12.2/mkmf.log
+
+current directory: /home/tejaswi/Sites/rails-api/vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8
+make "DESTDIR=" clean
+
+current directory: /home/tejaswi/Sites/rails-api/vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8
+make "DESTDIR="
+compiling constants.cc
+compiling rr.cc
+compiling v8.cc
+compiling primitive.cc
+compiling constraints.cc
+compiling stack.cc
+compiling exception.cc
+compiling message.cc
+compiling array.cc
+compiling signature.cc
+compiling init.cc
+compiling external.cc
+compiling date.cc
+compiling string.cc
+compiling script.cc
+compiling backref.cc
+compiling template.cc
+compiling object.cc
+compiling context.cc
+compiling value.cc
+compiling invocation.cc
+compiling locker.cc
+compiling gc.cc
+compiling heap.cc
+compiling trycatch.cc
+compiling handles.cc
+compiling accessor.cc
+compiling function.cc
+linking shared-object v8/init.so
+
+current directory: /home/tejaswi/Sites/rails-api/vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8
+make "DESTDIR=" install
+/usr/bin/install -m 0755 init.so ./.gem.20160713-8684-1r4t7r4/v8
